@@ -1,4 +1,4 @@
-package run.ikaros.plugin.starter;
+package run.ikaros.plugin.webdav;
 
 import run.ikaros.api.custom.Custom;
 import run.ikaros.api.custom.Name;

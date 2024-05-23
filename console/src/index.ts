@@ -4,13 +4,13 @@ import { Files as FilesIcon } from '@element-plus/icons-vue';
 import {  markRaw } from "vue"
 
 export default definePlugin({
-    name: 'PluginStarter',
+    name: 'PluginWebdav',
     components: {},
     routes: [
       {
         parentName: "Root",
         route: {
-          path: '/PluginStarter',
+          path: '/PluginWebdav',
           component: HelloIkaros,
           name: "HelloIkaros",
           meta: {

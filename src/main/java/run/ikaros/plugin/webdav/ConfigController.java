@@ -1,4 +1,4 @@
-package run.ikaros.plugin.starter;
+package run.ikaros.plugin.webdav;
 
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.event.EventListener;
@@ -15,9 +15,9 @@ import lombok.extern.slf4j.Slf4j;
 public class ConfigController {
     private final ReactiveCustomClient reactiveCustomClient;
     /**
-     * 请与[plugin.yaml]文件中的[name]保持一致.
+     * Please be consistent with [name] in the [plugin.yaml] file.
      */
-    private static final String pluginName = "PluginStarter";
+    private static final String pluginName = "PluginWebdav";
 
     public ConfigController(ReactiveCustomClient reactiveCustomClient) {
         this.reactiveCustomClient = reactiveCustomClient;

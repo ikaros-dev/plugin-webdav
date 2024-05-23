@@ -1,4 +1,4 @@
-package run.ikaros.plugin.starter;
+package run.ikaros.plugin.webdav;
 
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.stereotype.Component;

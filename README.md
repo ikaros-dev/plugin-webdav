@@ -1,2 +1,2 @@
-# plugin-starter
-ikaros plugin starter template
+# plugin-webdav
+WebDav storage for ikaros attachments.
